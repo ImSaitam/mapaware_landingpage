@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <Navbar className="bg-dark">
             <Container>
-                <Navbar.Brand className="" href="#home" style={{ fontFamily: 'Ubuntu, sans-serif' }}> 
+                <Navbar.Brand className="text-white" href="#home" style={{ fontFamily: 'Ubuntu, sans-serif' }}> 
                     <img 
                         alt="logo"
                         src={process.env.PUBLIC_URL + '/logo512.png'}
@@ -16,15 +16,14 @@ export default function Header() {
                     />{' '}
                     mapaware
                 </Navbar.Brand>
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="justify-content-end">
-                        <Nav.Link href="#inicio">Inicio</Nav.Link>
-                        <Nav.Link href="#quienesomos">Quienes somos</Nav.Link>
-                        <Nav.Link href="#ayuda">Ayuda</Nav.Link>
+                <Navbar.Collapse id="navbar-nav" >
+                    <Nav className="justify-content-end nunito-font">
+                        <Nav.Link className="text-white navLinks" href="#inicio">Inicio</Nav.Link>
+                        <Nav.Link className="text-white navLinks" href="#quienesomos">Quienes somos</Nav.Link>
+                        <Nav.Link className="text-white navLinks" href="#ayuda">Ayuda</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
     );
-
 }

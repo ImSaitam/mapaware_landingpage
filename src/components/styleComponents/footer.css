@@ -1,8 +1,24 @@
-.links {
-    transition: .4s !important;
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,800,800i,900i&display=swap');
+
+a.links {
+    color: rgb(220, 220, 220) !important;
+    transition: .3s;
 }
 
-.links:hover {
-    transition: .4s !important;
-    color: rgb(241, 241, 205) !important;
+.developText {
+    color: rgb(220, 220, 220);
+}
+
+.contactText {
+    color: rgb(220, 220, 220);
+}
+
+a.links:hover {
+    color: white !important;
+    transition: .3s;
+}
+
+.nunito-font {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
 }

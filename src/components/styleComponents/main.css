@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,800,800i,900i&display=swap');
+
+section {
+    scroll-behavior: smooth;
+}
+
+.nunito-font {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+
+.bg-gradient {
+    background-color: #1a799e !important;
+}
+
+.descriptionText {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 100;
+    color: rgb(220, 220, 220);
+}
+
+.appImage {
+    width: 31.25rem;
+    height: auto;
+    border-radius: .5em;
+}
+
+.verticalImgCenter {
+    margin-top: 19vh !important;
+}
+
+.verticalCenter {
+    margin-top: 20vh !important;
+}
+
+.buttonGo {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.arrowGoTo {
+    transition: transform .3s ease-in-out;
+}
+
+.buttonGo:hover .arrowGoTo {
+    transform: translateX(30vh); /* move the icon 10px to the right on hover */
+}
